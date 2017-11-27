@@ -14,19 +14,19 @@
   <arg name="reference_service" default="ar_reference" />
 
 	<arg name="bundle_files" default="
-$(find ar_track_alvar_bundles)/bundles/MarkerData_1.xml
-$(find ar_track_alvar_bundles)/bundles/MarkerData_2.xml
-$(find ar_track_alvar_bundles)/bundles/MarkerData_3_4_5_6_7_8.xml
-$(find ar_track_alvar_bundles)/bundles/MarkerData_9_10_11_12_13_14.xml
-$(find ar_track_alvar_bundles)/bundles/MarkerData_15_16_17_18_19_20.xml
-$(find ar_track_alvar_bundles)/bundles/MarkerData_21.xml
-$(find ar_track_alvar_bundles)/bundles/MarkerData_22.xml
-$(find ar_track_alvar_bundles)/bundles/MarkerData_23.xml
-$(find ar_track_alvar_bundles)/bundles/MarkerData_24.xml
-$(find ar_track_alvar_bundles)/bundles/MarkerData_25.xml
-$(find ar_track_alvar_bundles)/bundles/MarkerData_26.xml
-$(find ar_track_alvar_bundles)/bundles/MarkerData_51.xml
-$(find ar_track_alvar_bundles)/bundles/MarkerData_52.xml
+$(find ar_track_alvar_bundles)/bundles/MarkerData_101.xml
+$(find ar_track_alvar_bundles)/bundles/MarkerData_102.xml
+$(find ar_track_alvar_bundles)/bundles/MarkerData_103_104_105_106_107_108.xml
+$(find ar_track_alvar_bundles)/bundles/MarkerData_109_110_111_112_113_114.xml
+$(find ar_track_alvar_bundles)/bundles/MarkerData_115_116_117_118_119_120.xml
+$(find ar_track_alvar_bundles)/bundles/MarkerData_121.xml
+$(find ar_track_alvar_bundles)/bundles/MarkerData_122.xml
+$(find ar_track_alvar_bundles)/bundles/MarkerData_123.xml
+$(find ar_track_alvar_bundles)/bundles/MarkerData_124.xml
+$(find ar_track_alvar_bundles)/bundles/MarkerData_125.xml
+$(find ar_track_alvar_bundles)/bundles/MarkerData_126.xml
+$(find ar_track_alvar_bundles)/bundles/MarkerData_151.xml
+$(find ar_track_alvar_bundles)/bundles/MarkerData_152.xml
 "/>
 
 	<node name="ar_track_alvar" pkg="ar_track_alvar" type="findMarkerBundlesNoKinect" respawn="false" output="screen" args="$(arg marker_size) $(arg max_new_marker_error) $(arg max_track_error) $(arg cam_image_topic) $(arg cam_info_topic) $(arg output_frame) $(arg max_frequency) $(arg display_unknown_object) $(arg reference_service) $(arg bundle_files)" />
